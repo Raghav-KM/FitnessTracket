@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
                 password.isEmpty() -> {
                     Toast.makeText(this, "Enter password", Toast.LENGTH_SHORT).show()
                 }
-                password == "1" -> {
+                password == "sabhmohmayahai" -> {
                     val intent : Intent = Intent(this@MainActivity, SecondActivity::class.java)
                     intent.putExtra("username", username)
                     startActivity(intent)
